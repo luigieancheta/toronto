@@ -3,19 +3,20 @@
   <head>
     <meta charset="utf-8">
     <title>Toronto</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <div class="header">
+    <div class="header clearfix">
       <div class="container">
-        <h1 class="brand">toronto</h1>
+        <a href="index.html" class="brand">toronto</a>
         <div class="main-nav">
           <ul>
             <li id="current"><a href="index.html">Home</a></li><!--
-            --><li><a href="index.html">Learn</a></li><!--
-            --><li><a href="index.html">Attractions</a></li><!--
-            --><li><a href="index.html">Facts</a></li>
+            --><li><a href="learn/learn.html">Learn</a></li><!--
+            --><li><a href="attractions/attractions.html">Attractions</a></li><!--
+            --><li><a href="facts/facts.html">Facts</a></li>
           </ul>
         </div><!--/// END OF NAVIGATION /// -->
       </div><!--/// END OF container /// -->
@@ -23,19 +24,13 @@
 
 <!--////////// CONTENT ////////// -->
     <div class="featured">
-      <div class="container">
-        <h2>This is Toronto</h2>
+      <div class="container featured-content">
+        <h1>This is Toronto</h1>
         <p>Discover and experience the beauty and magnificence.</p>
-        <a href="#" class="btn">Information</a>
-        <a href="#" class="btn bg-green">Sights</a>
+        <a href="learn/learn.html" class="btn">Information</a>
+        <a href="attractions/attractions.html" class="btn bg-green">Sights</a>
       </div><!--/// END OF container /// -->
     </div><!--/// END OF featured /// -->
-
-    <div class="container">
-      <div class="infoparagraph">
-        <p>Toronto is the <em>most populous city in Canada</em>, the provincial capital of Ontario, and the centre of the Greater Toronto Area, the most populous metropolitan area in Canada. A global city, Toronto is an international centre of business, finance, arts, and culture, and is widely recognized as one of the most multicultural and cosmopolitan cities in the world.</p>
-      </div><!--/// END OF infoparagraph /// -->
-    </div><!--/// END OF container /// -->
 
     <div class="infograph">
       <div class="container">
@@ -50,57 +45,86 @@
       </div>
     </div><!--/// END OF infograph /// -->
 
+    <div class="container">
+      <div class="infoparagraph">
+        <p>Toronto is the <em>most populous city in Canada</em>, the provincial capital of Ontario, and the centre of the Greater Toronto Area, the most populous metropolitan area in Canada. A global city, Toronto is an international centre of business, finance, arts, and culture, and is widely recognized as one of the most multicultural and cosmopolitan cities in the world.</p>
+      </div><!--/// END OF infoparagraph /// -->
+      <hr>
     <div class="sub-feature">
       <div class="container">
-        <div class="sub-feature-photo sub-feature-photo-bg-1"></div>
+        <div class="sub-feature-photo bg-image photo-bg-1"></div>
         <p>Toronto is a fascinating city where you can find both modernity and history, stunning architecture and beautiful, natural outdoor space, and so much more. With exciting attractions, Toronto offers a daily adventure.</p>
-        <a href="#" class="btn btn-hollow">Explore</a>
+        <a href="attractions/attractions.html" class="btn btn-hollow">Explore</a>
       </div>
     </div><!--/// END OF sub-feature /// -->
+
     <hr>
+
     <div class="sub-feature">
       <div class="container">
-        <div class="sub-feature-photo sub-feature-photo-bg-2"></div>
+        <div class="sub-feature-photo bg-image photo-bg-2"></div>
         <p>Toronto, Ontario's capital city, has a vibrant history of change and growth, ranging from its early occupation over 1,000 years ago to its current status as North America’s fourth largest city.</p>
-        <a href="#" class="btn btn-hollow">Learn</a>
+        <a href="learn/learn.html" class="btn btn-hollow">Learn</a>
       </div>
     </div><!--/// END OF sub-feature /// -->
-    <hr>
+
+    <div class="video-container">
+      <iframe src="https://www.youtube.com/embed/7uY0Ab5HlZ0" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </div><!--/// END OF container /// -->
+
     <div class="sub-feature">
       <div class="container">
-        <p class="sub-feature-title">Did you know...</p>
-        <div class="card">
-          <p class="card-desc">There are over 1600 named parks in Toronto.</p>
+        <span class="sub-feature-title">Did you know...</span>
+        <div class="cards clearfix">
+          <div class="card">
+            <p class="card-desc">There are over <em>1600 named parks</em> in Toronto.</p>
+          </div>
+          <div class="card">
+            <p class="card-desc">You’ll find over <em>35,000 hotel rooms</em> in Toronto.</p>
+          </div>
+          <div class="card">
+            <p class="card-desc">There are about <em>10 million trees</em> in Toronto of which four million are publicly owned.</p>
+          </div>
+          <div class="card">
+            <p class="card-desc">Over <em>21 million people</em> visit Toronto on an annual basis. There are about a quarter of a million people who work in tourism and hospitality. Brazil, India, China and South Korea are the fastest grown markets for Toronto.</p>
+          </div>
+          <div class="card">
+            <p class="card-desc">There are over <em>1.6 million trips every day on the TTC</em> (Toronto Transit Commission) which includes subways, buses and streetcars.</p>
+          </div>
+          <div class="card">
+            <p class="card-desc">The highest temperatures ever recorded were <em>41C (105F)</em> from July 7-9 in 1936.</p>
+          </div>
         </div>
-        <div class="card">
-          <p class="card-desc">You’ll find over 35,000 hotel rooms in Toronto.</p>
-        </div>
-        <div class="card">
-          <p class="card-desc">There are about 10 million trees in Toronto of which four million are publicly owned.</p>
-        </div>
-        <!-- <div class="card">
-          <p class="card-desc">Over 21 million people visit Toronto on an annual basis. There are about a quarter of a million people who work in tourism and hospitality. Brazil, India, China and South Korea are the fastest grown markets for Toronto.</p>
-        </div>
-        <div class="card">
-          <p class="card-desc">There are over 1.6 million trips every day on the TTC (Toronto Transit Commission) which includes subways, buses and streetcars.</p>
-        </div>
-        <div class="card">
-          <p class="card-desc">The highest temperatures ever recorded were 41C (105F) from July 7-9 in 1936.</p>
-        </div> -->
-        <a href="#" class="btn btn-hollow">More</a>
+        <a href="facts/facts.html" class="btn btn-hollow">More</a>
       </div>
     </div><!--/// END OF sub-feature /// -->
+
     <div class="footer">
-      <div class="footer-nav">
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Learn</a></li>
-          <li><a href="#">Attractions</a></li>
-          <li><a href="#">About</a></li>
-        </ul>
-      </div>
-      <div class="footer-title">
-        <p>&copy; 2016 Toronto</p>
+      <div class="container">
+        <div class="link-to-top">
+          <a href="#">&uarr; top</a>
+        </div>
+        <div class="footer-nav">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="learn/learn.html">Learn</a></li>
+            <li><a href="attractions/attractions.html">Attractions</a></li>
+            <li><a href="facts/facts.html">Facts</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </div>
+        <div class="social-links">
+          <ul>
+            <li><a href="#" class="social-link-icon i-fb"></a></li>
+            <li><a href="#" class="social-link-icon i-tw"></a></li>
+            <li><a href="#" class="social-link-icon i-gp"></a></li>
+            <li><a href="#" class="social-link-icon i-gh"></a></li>
+          </ul>
+        </div>
+        <div class="footer-title">
+          <p>&copy; 2016 Toronto</p>
+        </div>
       </div>
     </div>
   </body>

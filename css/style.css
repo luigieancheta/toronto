@@ -256,30 +256,15 @@ li {
   display: inline;
 }
 
-.social-link-icon {
+.social-links ul li a i {
   margin: 1.5%;
-  display: inline-block;
-  height: 32px;
-  width: 32px;
-  background-repeat: no-repeat;
+  font-size: 2.3em;
+  color: #d1495b;
 }
 
 .footer-title {
   text-align: center;
   color: #fff;
-}
-
-.i-fb {
-  background-image: url('../images/icons/social-1_round-facebook.svg');
-}
-.i-tw {
-  background-image: url('../images/icons/social-1_round-twitter.svg');
-}
-.i-gp {
-  background-image: url('../images/icons/social-1_round-google-plus.svg');
-}
-.i-gh{
-  background-image: url('../images/icons/social-1_round-github.svg');
 }
 
 .link-to-top {
